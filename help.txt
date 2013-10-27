@@ -1,0 +1,13 @@
+{yellow}{bold}Having trouble with a {appname} exercise?{/bold}{/yellow}
+
+  A lonely expert helper is eagerly waiting to assist you in
+  mastering the tutorial building, simply go to:
+    https://github.com/rynodivino/workshop
+  and add a {bold}New Issue{/bold} and let us know what you're having trouble
+  with. There are no {italic}dumb{/italic} questions!
+
+{yellow}{bold}Found a bug with {appname} or just want to contribute?{/bold}{/yellow}
+
+  The official repository for {appname} is:
+    https://github.com/rynodivino/workshop/
+  Feel free to file a bug report or (preferably) a pull request.
