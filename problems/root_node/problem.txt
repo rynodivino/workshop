@@ -1,5 +1,9 @@
-Write a program that prints the text "HELLO WORLD" to the console
-(stdout).
+This is the first program in a series to create a binary search tree.
+
+Let's keep the first step simple.  Create a function "BinarySearchTree",
+that upon construction creates a root node internally, and gives it a
+null value;
+
 
 ----------------------------------------------------------------------
 HINTS:
@@ -12,7 +16,7 @@ start writing JavaScript! Execute your program by running it with the
 
   You can write to the console in the same way as in the browser:
     
-      console.log("text")
+        console.log(tree.rootNode); // should output null
 
       When you are done, you must run:
 
@@ -22,4 +26,8 @@ start writing JavaScript! Execute your program by running it with the
          and the lesson will be marked 'completed' if you are successful.
 
          ----------------------------------------------------------------------
+
+    For a nice article and js solution on binary tree's see this blogpost by
+    Nicholas Zakas:
+    http://www.nczonline.net/blog/2009/06/09/computer-science-in-javascript-binary-search-tree-part-1/
 

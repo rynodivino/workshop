@@ -5,7 +5,7 @@ const Workshopper = require('workshopper')
 
 Workshopper({
     name     : 'workshop'
-  , title    : 'Ryan\s Fun Tutorial.'
+  , title    : 'Let\'s Create a Binary Tree!'
   , appDir   : __dirname
   , helpFile : path.join(__dirname, 'help.txt')
 }).init()
