@@ -1,0 +1,39 @@
+This is the second program in a series to create a binary search tree.
+
+Let's build on the first solution you wrote, and create an "add" method
+to our binary tree.
+
+
+Accept any number of command line args as values to add to the binary tree.
+For example, when building your solution, test like this:
+        node solution.js 15 20 5
+
+Before we can add the method, we need to know the rules of a binary tree.
+//  TODO add rules for the add method, and add hints
+
+----------------------------------------------------------------------
+HINTS:
+
+To make Node.js program, create a new file with a `.js` extension and
+start writing JavaScript! Execute your program by running it with the
+`node` command. e.g.:
+
+  $ node myprogram.js
+
+  You can write to the console in the same way as in the browser:
+    
+        console.log(tree.rootNode); // should output null
+
+      When you are done, you must run:
+
+         {appname} verify myprogram.js
+
+         to proceed. Your program will be tested, a report will be generated,
+         and the lesson will be marked 'completed' if you are successful.
+
+         ----------------------------------------------------------------------
+
+    For a nice article and js solution on binary tree's see this blogpost by
+    Nicholas Zakas:
+    http://www.nczonline.net/blog/2009/06/09/computer-science-in-javascript-binary-search-tree-part-1/
+
