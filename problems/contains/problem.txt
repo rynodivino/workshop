@@ -1,0 +1,50 @@
+Wow, you've already made it to the 3rd tutorial in the series.  Great job!
+
+Let's continue to build on the binary tree we've created.  This time, let's add a "contains"
+method to our binary tree.
+
+The goal is to be able to send a number to our tree, and see if it exists (is contained) within the tree.
+
+For example:
+
+    var tree = BinarySearchTree();
+    tree.add(51);
+    ...
+    ...
+    tree.add(12);
+    ...
+    ..
+
+Now we have lots of values in our tree.  I want to know if 33 is in there, so I call our contains method:
+
+tree.contains(33);// boolean
+
+Accept any number of command line args as values to add to the binary tree.
+For example, when building your solution, test like this:
+
+    node solution.js 15 20 5
+
+    Before we can add the method, we need to know the rules of a binary tree.
+    //  TODO add rules for the add method, and add hints
+
+    ----------------------------------------------------------------------
+    HINTS:
+
+    To make Node.js program, create a new file with a `.js` extension and
+    start writing JavaScript! Execute your program by running it with the
+    `node` command. e.g.:
+
+    $ node myprogram.js
+
+    You can write to the console in the same way as in the browser:
+            
+        console.log(tree.rootNode); // should output null
+
+    When you are done, you must run:
+
+        {appname} verify myprogram.js
+
+    to proceed. Your program will be tested, a report will be generated,
+    and the lesson will be marked 'completed' if you are successful.
+
+    ----------------------------------------------------------------------
