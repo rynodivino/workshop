@@ -2,13 +2,15 @@
   "name": "workshop",
   "version": "0.0.0",
   "description": "Play around making a \"stream-adventure\" style tutorial - using workshop.",
-  "readme":"README.md",
+  "readme": "README.md",
   "dependencies": {
     "workshopper": "~0.3.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.4"
+  },
   "scripts": {
-    "test": "workshop"
+    "test": "tap ./test"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,7 @@
   },
   "author": "rynodivino",
   "license": "BSD",
-  "bin": {"workshop": "./workshop.js"}
+  "bin": {
+    "workshop": "./workshop.js"
+  }
 }

@@ -65,12 +65,3 @@ BinarySearchTree.prototype = {
     }
 };
 
-var tree = new BinarySearchTree(),
-    numbers = process.argv.slice(2),
-    i = 0,
-    l = numbers.length;
-while (i < l) {
-    tree.add(+numbers[i]);
-    i++;
-}
-console.log(tree.contains(15));
