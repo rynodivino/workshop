@@ -1,11 +1,26 @@
-var bt  = require('../binary-search.js'),
+var bt  = require('../lib/binary-search.js'),
     test = require('tap').test,
     tree = new bt;
 
 
-test("test the functions of the binary-search tree", function(t) {
+test("Test creating the binary-search tree.", function(t) {
     tree.add(40);
     t.ok(tree.contains(40), "\"contains\" method: Tree should contain the number 40");
+    t.end();
+});
+
+
+test("Testing dupes not allowed.", function(t) {
+    tree.add(40);
+    t.equal(tree.size(),1, "Should not have dupes");
+    t.end();
+});
+
+test("Testing dupes not allowed.", function(t) {
+    tree.add(13);
+    tree.add(53);
+    tree.add(27);
+    t.equal(tree.size(),4, "Add method and size method working.");
     t.end();
 });
 /**
