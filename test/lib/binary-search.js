@@ -1,4 +1,4 @@
-var bt  = require('../lib/binary-search.js'),
+var bt  = require('../../lib/binary-search.js'),
     test = require('tap').test,
     tree = new bt;
 
