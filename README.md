@@ -1,5 +1,7 @@
 Workshop
 =============
+Travis  [![Build Status](https://travis-ci.org/rynodivino/workshop.png)](https://travis-ci.org/rynodivino/workshop)
+
 This will be more appropriately renamed later :]
 Created the project before I knew what tutorial it would actually house.
 
